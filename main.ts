@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// Keep the sentence below exactly as written; do not rebuild it from pieces.
 const line =
   "HR scheduled a meeting to explain the new policy, but nobody read the policy, so the meeting explained a policy nobody read to people who will not read it either.";
 
